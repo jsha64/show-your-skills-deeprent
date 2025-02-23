@@ -1,5 +1,5 @@
 # Dockerfile
-FROM --platform=linux/arm64/v8 php:8.1-fpm
+FROM php:8.1-fpm
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \

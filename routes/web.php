@@ -2,6 +2,7 @@
 
 use App\Livewire\SuccessNotificationButton;
 use Illuminate\Support\Facades\Route;
+use App\Livewire\UnitDataTable;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', SuccessNotificationButton::class);
+// Route::get('/', SuccessNotificationButton::class);
+Route::get('/', UnitDataTable::class);
